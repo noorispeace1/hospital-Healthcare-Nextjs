@@ -162,7 +162,7 @@ export default function DoctorApplyForm() {
     <div className="flex flex-col gap-6 ">
       <div className="flex flex-col gap-2 text-center">
         <h1 className="text-2xl font-bold tracking-tight">
-          Apply to join PH Healthcare
+          Apply to join Sync Healthcare
         </h1>
       </div>
 

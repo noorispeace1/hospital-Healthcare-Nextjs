@@ -14,7 +14,7 @@ import {
 } from "@/components/ui/sidebar";
 import Logo from "@/assets/svg/Logo";
 import { UserRole } from "@/types";
-import { adminRoutes, doctorRoutes, patientRoutes } from "@/routes";
+import { adminRoutes, doctorRoutes } from "@/routes";
 import { SidebarItems } from "@/types/sidebar.type";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -23,7 +23,6 @@ const sidebarRoutes: Partial<Record<UserRole, SidebarItems>> = {
   SUPER_ADMIN: adminRoutes,
   ADMIN: adminRoutes,
   DOCTOR: doctorRoutes,
-  PATIENT: patientRoutes,
 };
 
 export function DashboardSidebar({ role }: { role: UserRole }) {
