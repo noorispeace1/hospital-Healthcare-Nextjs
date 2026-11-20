@@ -59,7 +59,7 @@ export default function TopDoctorsSection() {
             <Link
               key={dept.id}
               href={dept.link}
-              className="group bg-white text-zinc-900 shadow-2xl overflow-hidden flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5 rounded-none"
+              className="group bg-white text-zinc-900 shadow-2xl overflow-hidden flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5 rounded-none cursor-pointer"
             >
               {/* Department Image */}
               <div className="relative w-full aspect-[4/3] overflow-hidden bg-zinc-100">

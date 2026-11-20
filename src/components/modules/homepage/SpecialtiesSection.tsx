@@ -114,7 +114,7 @@ export default function SpecialtiesSection() {
               <Link
                 key={item.name}
                 href="/specialties"
-                className="group relative p-6 rounded-2xl bg-zinc-50/70 dark:bg-zinc-900/60 border border-zinc-200/80 dark:border-zinc-800 hover:border-blue-500/50 hover:bg-white dark:hover:bg-zinc-900 transition-all duration-200 hover:shadow-xl hover:shadow-blue-500/5 hover:-translate-y-1"
+                className="group relative p-6 rounded-2xl bg-zinc-50/70 dark:bg-zinc-900/60 border border-zinc-200/80 dark:border-zinc-800 hover:border-blue-500/50 hover:bg-white dark:hover:bg-zinc-900 transition-all duration-200 hover:shadow-xl hover:shadow-blue-500/5 hover:-translate-y-1 cursor-pointer"
               >
                 <div
                   className={`w-12 h-12 rounded-xl bg-gradient-to-br ${item.color} border flex items-center justify-center mb-4 transition-transform group-hover:scale-110`}
