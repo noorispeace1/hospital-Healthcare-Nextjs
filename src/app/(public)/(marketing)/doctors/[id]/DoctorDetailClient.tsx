@@ -45,7 +45,7 @@ export default function DoctorDetailClient({ doctorId }: { doctorId: string }) {
           </Link>
           <ChevronRight className="w-3.5 h-3.5" />
           <Link
-            href="/specialties"
+            href="/doctors"
             className="hover:text-blue-600 transition-colors"
           >
             Doctors
